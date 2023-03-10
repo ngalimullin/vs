@@ -1,4 +1,4 @@
-a = [")", ")", "(", "(", ")", "(", ")", "(", "(", "(", ")", ")"]
+a = [")", ")", "(", "(", ")", ")", ")", ")", "(", "(", "(", "(", "(", "(", "(", "(", "(", "(", "(", "(", "(", "(", "(", "(", "(", "(", "("]
 let c = 0
 let d = 0
 let b
@@ -13,6 +13,8 @@ for (let i = 0; i < a.length; i++) {
         //console.log("213aregs5wd")
         d++
     }
+
+
 }
 if (c == d) {
     console.log("все гуд")
@@ -20,11 +22,22 @@ if (c == d) {
 
 
 if (c % 2 == 1) {
-    console.log("надо еще одну )")
+
+    console.log("надо еще )")
 }
 if (d % 2 == 1) {
-    console.log("надо еще одну (")
+    console.log("надо еще (")
 }
 
-console.log(")", c)
-console.log("(", d)
+if (c > d) {
+
+    console.log("надо еще )", c - d)
+}
+if (d > c) {
+    console.log("надо еще (", d - c)
+}
+
+
+
+console.log(")c", c)
+console.log("(d", d)++ +
