@@ -40,4 +40,4 @@ if (d > c) {
 
 
 console.log(")c", c)
-console.log("(d", d)++ +
+console.log("(d", d)
